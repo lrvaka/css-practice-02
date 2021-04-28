@@ -431,6 +431,7 @@ border-radius: 2% 2%;
 }
 
 h1 {
+    margin-top: 0;
     font-size: 25px;
     text-align: center;
     margin-bottom: 20px;
@@ -465,6 +466,13 @@ form > * + * {
     margin-top: 10px;
 }
 
+form > input {
+    color: grey;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+}
+
 .inline-agree{
     display: flex;
     margin-top: 10px;
@@ -477,10 +485,12 @@ form > * + * {
     padding-top: 2px;
 }
 
+.inline-agree a{
+    color: #E5B323;
+}
+
 input[type="checkbox"] {
     font-size: 1px;
-    background-color: orange;
-    color: orange;
 }
 
 .agreement {
@@ -494,29 +504,32 @@ so no quality loss with size, no need for unnecessary
 padding and margins on this side of the thingy,
 let the parent container handle the over width */
 .watermelone-jones {
+    margin-top: 30px;
     width: 400px;
 }
 
 .sign-btn {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 20px;
+    justify-content: space-between;
+    margin: 0 5px;
 }
 
 .sign-in {
-    font-size: large;
+    font-size: small;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #E5B323;
     background-color: white;
     color: #E5B323;
+    width: 100px;
 }
 
 .sign-up {
-    font-size: large;
+    font-size: small;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #E5B323;
     color: white;
     border: none;
+    width: 100px;
 }
