@@ -447,6 +447,10 @@ ul {
     margin-bottom: 10px;
 }
 
+li {
+    margin: 0 10px;
+}
+
 .ib {
     height: 1.5em;
     width: 1.5em;
@@ -476,13 +480,14 @@ form > input {
 .inline-agree{
     display: flex;
     margin-top: 10px;
-    margin-bottom: 15px;
-    justify-content: space-evenly;
+    margin-bottom: 13px;
     height: 20px;
+    padding: 0 45px;
 }
 
 .inline-agree p{
     padding-top: 2px;
+    margin-left: 10px;
 }
 
 .inline-agree a{
@@ -511,7 +516,7 @@ let the parent container handle the over width */
 .sign-btn {
     display: flex;
     justify-content: space-between;
-    margin: 0 5px;
+    margin: 0 30px;
 }
 
 .sign-in {
