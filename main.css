@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.ib{
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	background: currentColor;
+	vertical-align: -.125em;
+	mask-image: var(--url);
+	mask-repeat: no-repeat;
+	mask-position: center;
+	-webkit-mask-image: var(--url);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+}
+
+
+/* Icon: simple-line-icons-social-google
+ * License: MIT
+ * Html: <i class="ib ib-simple-line-icons-social-google"></i>
+ */
+.ib-simple-line-icons-social-google{
+	--url: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"%3e%3cpath d="M707 360q-48-51-91-69t-93-19h-2q-97 0-171 71.5T276 520q0 106 77.5 172.5T520 759h1q57 0 105.5-20.5T718 656H472V401l523 2q14 73 14 125q0 219-135.5 357T516 1023q-105 0-200-40T152 875T42 713T1 515q0-139 69-255.5t187.5-184T516 8q110 0 212.5 45T898 188zm-187 93v154h263q-4 22-14 45.5t-31.5 51t-49.5 49t-72 35.5t-96 14q-119 0-203-84t-84-201t85-202t202-85q111 0 185 72l126-119Q703 63 520 63q-192 0-328 132.5T56 517q0 188 136 320.5T520 970q201 0 323-123.5T965 528q0-41-6-75H520z" fill="currentColor"/%3e%3c/svg%3e');
+}
+
+/* Icon: simple-line-icons-social-facebook
+ * License: MIT
+ * Html: <i class="ib ib-simple-line-icons-social-facebook"></i>
+ */
+.ib-simple-line-icons-social-facebook{
+	--url: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 528 992"%3e%3cpath d="M342 64l6 1h83v96h-83q-7 0-13.5 1t-10.5 3.5t-7.5 5.5t-6 6t-4 6.5t-2 6l-1 5l-.5 3.5v154h162l-23 96H303v480h-96V448H79v-96h128V203q0-31 8-55.5t21.5-38.5T264 85t31-14t27-5.5t20-1.5zm89 1zM342 0q-62 0-111 30q-88 53-88 173v85H79q-26 0-45 19t-19 45v96q0 26 19 45t45 19h64v415q0 27 18.5 45.5T207 991h96q26 0 45-18.5t19-45.5V512h75q22 0 39-13t23-33l22-96q9-31-10-56.5T465 288h-98v-63h64q26 0 45-19t19-45V65q0-27-18.5-45.5T432 1h-82q-4-1-8-1z" fill="currentColor"/%3e%3c/svg%3e');
+}
+
+/* Icon: simple-line-icons-social-twitter
+ * License: MIT
+ * Html: <i class="ib ib-simple-line-icons-social-twitter"></i>
+ */
+.ib-simple-line-icons-social-twitter{
+	--url: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 896"%3e%3cpath d="M684 95q80 0 135 56q62-12 116-43q-21 64-80 98q55-6 105-28q-12 18-26.5 34.5t-31 31T868 271q1 12 1 23q0 59-15.5 119t-45 117t-75 106t-102 86t-130 58T346 801q-153 0-282-80q11 1 21.5 2t22.5 1q128 0 228-77q-60-1-107-35.5T164 523q6 1 11.5 2t11.5 1.5t12 .5q25 0 48-7q-63-12-105-61t-42-114v-2q39 21 83 22q-25-16-43-38.5t-28.5-51T101 217q0-24 6.5-47t18.5-43q69 83 167.5 132T505 314q-5-20-5-41q0-74 54-126t130-52zm276 83zM684 31q-93 0-163 60.5T439 241Q278 209 175 86q-19-23-49-23l-5 1q-33 2-50 30q-34 57-34 123q0 43 15 83q-16 19-16 43v2q0 95 66 165q-2 8-1.5 16.5T103 543q22 65 74 109q-17 4-34.5 6t-34.5 2q-20 0-37-2l-7-1q-21 0-37.5 12T3 700q-7 21 .5 42.5T30 775q144 90 316 90q106 0 200-31.5T709 747t119.5-126.5t77-153T933 302q45-37 78-85q7-8 10-18t3-21q0-33-27-52q3-13 2-25t-7-23.5T976 58q-18-14-41-14q-4 0-8 .5t-8 1.5t-8 2.5t-8 3.5q-31 19-67 29q-68-50-152-50z" fill="currentColor"/%3e%3c/svg%3e');
+}
+
+/* Icon: simple-line-icons-social-vkontakte
+ * License: MIT
+ * Html: <i class="ib ib-simple-line-icons-social-vkontakte"></i>
+ */
+.ib-simple-line-icons-social-vkontakte{
+	--url: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 896"%3e%3cpath d="M3 184q0-51 58-55l149 1q15 0 20 15q23 75 51.5 129.5T356 400q4 9 13 9q7 0 11-7l3-11l1-173q0-18-8.5-24t-31.5-9q-18-3-18-22q0-4 1-6q21-65 120-65l56-1q38 0 63 19t25 60v227q7 5 13 5q15 0 26-18q110-154 119-206q0-1 2-5q7-15 23-26t28-15q4-2 9-2h155l10 1q20 0 31 19q4 6 5.5 13t2 14t.5 8v7q-7 41-35.5 87.5T907 380t-55 71q-9 12-9 22q0 8 8 18l146 184q12 16 12 35q0 23-18 38t-43 17l-17 1H779q-1 0-4 .5t-4 .5q-22 0-41-19q-7-8-94-118q-5-7-14-13q-4 16-10.5 46t-9.5 43l-3 17q-10 35-42 42l-14 1h-98q-83 0-165.5-76T131 493.5T8 213q-5-13-5-29zm601 259q-21 0-38-11.5T549 400V170q0-20-10-28.5t-35-8.5l-57 2q-43 0-65 15q44 21 44 68v176q-2 25-20 41.5T366 452q-30 0-46-29q-78-118-116-224l-9-26l-133-1q-13 0-14.5 1.5T46 182q0 9 2 19l21 56q84 217 182.5 342T445 724h100q6 0 9-3.5t5-13.5l2-10l19-88q8-18 14-24q11-11 26-11q24 0 49 29l85 108q8 13 17 13h165q30 0 30-15q0-5-3-10L818 518q-17-21-17-45t16-46q13-20 50.5-66.5t65.5-87t37-73.5l3-13q-1-2-1-6.5t-1-7.5H814q-15 6-24 18l-6 19q-25 69-131 213q-21 20-49 20z" fill="currentColor"/%3e%3c/svg%3e');
+}
+
+
+/* Main container, creates the card, sets margin, to middle */
+.container {
+max-width: 740px;
+margin:300px auto;
+justify-content: center;
+display: flex;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 2% 2%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.info-container p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: small;
+    color: #4d5e63;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e6b323;
+    
+}
+
+ul {
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex;
+    margin: 0 80px;
+    margin-bottom: 10px;
+}
+
+.ib {
+    height: 1.5em;
+    width: 1.5em;
+    color: #37474f;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* direct children, adjacent sibling, first child does
+not get the spacing*/
+form > * + * {
+    margin-top: 10px;
+}
+
+.inline-agree{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+input type['checkbox'] + p {
+    font-size: 9px;
+    padding-top: 10px;
+}
+
+/* Keep it simple, the img is set to 100%, therefore
+will fill whatever container it is in + it is svg
+so no quality loss with size, no need for unnecessary
+padding and margins on this side of the thingy,
+let the parent container handle the over width */
+.watermelone-jones {
+    width: 400px;
+}
